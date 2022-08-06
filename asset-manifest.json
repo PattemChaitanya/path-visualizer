@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/path-visualizer/static/css/main.5d980bc6.css",
+    "main.js": "/path-visualizer/static/js/main.5231b055.js",
+    "static/js/787.23dff8e1.chunk.js": "/path-visualizer/static/js/787.23dff8e1.chunk.js",
+    "static/media/Dijkstra.gif": "/path-visualizer/static/media/Dijkstra.a02b070caa738d25781f.gif",
+    "static/media/A-star.gif": "/path-visualizer/static/media/A-star.c4dd3a8a34c030a9414d.gif",
+    "static/media/Breadth-First-Search.gif": "/path-visualizer/static/media/Breadth-First-Search.5a1b5ffb40722e6d16fb.gif",
+    "static/media/Depth-First-Search.gif": "/path-visualizer/static/media/Depth-First-Search.fb533d727730dea14e2b.gif",
+    "static/media/earth.svg": "/path-visualizer/static/media/earth.fe7c813fe17af4d2ca77.svg",
+    "static/media/satellite.svg": "/path-visualizer/static/media/satellite.4af0ab748c1e9a1ec4b1.svg",
+    "static/media/brick-wall.svg": "/path-visualizer/static/media/brick-wall.8c01374691847b9c292a.svg",
+    "index.html": "/path-visualizer/index.html",
+    "main.5d980bc6.css.map": "/path-visualizer/static/css/main.5d980bc6.css.map",
+    "main.5231b055.js.map": "/path-visualizer/static/js/main.5231b055.js.map",
+    "787.23dff8e1.chunk.js.map": "/path-visualizer/static/js/787.23dff8e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d980bc6.css",
+    "static/js/main.5231b055.js"
+  ]
+}
