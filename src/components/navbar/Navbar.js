@@ -135,7 +135,7 @@ class Navbar extends React.PureComponent {
         </Grid>
         </Grid>
         <Grid container item xs={1} justifyContent="flex-end">
-          <IconButton href="/">
+          <IconButton href="https://github.com/PattemChaitanya/path-visualizer">
             <GitHubIcon />
           </IconButton>
         </Grid>
