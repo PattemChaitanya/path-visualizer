@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    margin: 10px 0;
+}
+
+.box {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.start {
+    background: url(../icons/satellite.svg);
+}
+
+.finish {
+    background: url(../icons/earth.svg);
+}
+
+.wall {
+    background: url(../icons/brick-wall.svg);
+}
+
+.shortest {
+    background: rgb(229, 57, 53);
+}
+
+.visited {
+    background-color: rgba(7, 19, 20, 0.75);
+}

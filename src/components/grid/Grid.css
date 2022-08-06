@@ -1,0 +1,14 @@
+#grid {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    touch-action: pinch-zoom;
+}
+
+.grid-row {
+    display: table-row;
+    margin: 0 auto;
+    max-width: 100%;
+}

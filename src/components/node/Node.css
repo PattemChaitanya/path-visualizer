@@ -1,0 +1,108 @@
+.grid_node {
+    display: table-cell;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(179, 229, 252);
+    box-sizing: border-box;
+}
+
+.start_node {
+    background: url(../icons/satellite.svg) no-repeat center;
+    animation: draw-start 0.2s ease-out;
+}
+
+.finish_node {
+    background: url(../icons/earth.svg) no-repeat center;
+    animation: draw-finish 0.2s ease-out;
+}
+
+.wall_node {
+    background: url(../icons/brick-wall.svg) center;
+    animation: draw-wall 0.2s ease-out;
+}
+
+.path {
+    flex: 1;
+    height: 100%;
+    pointer-events: none;
+}
+
+.visited_node {
+    background-color: rgba(7, 19, 20, 0.75);
+}
+
+.visited_node.animated {
+    animation: draw-visited 1s ease-out;
+}
+
+.shortest_path {
+    background-color: rgb(229, 57, 53);
+}
+
+.shortest_path.animated {
+    animation: draw-shortest 1s ease-out;
+}
+
+/* Animations */
+@keyframes draw-start {
+    0% {
+        transform: scale(0.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes draw-finish {
+    0% {
+        transform: scale(0.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes draw-wall {
+    0% {
+        transform: scale(0.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes draw-visited {
+    0% {
+        transform: scale(0.3);
+        border-radius: 100%;
+    }
+
+    75% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes draw-shortest {
+    0% {
+        transform: scale(0.6);
+        background: url(../icons/satellite.svg) no-repeat center;
+    }
+
+    75% {
+        transform: scale(1.2);
+        background: url(../icons/satellite.svg) no-repeat center;
+    }
+
+    100% {
+        transform: scale(1);
+        background: url(../icons/satellite.svg) no-repeat center;
+        animation-fill-mode: forwards;
+    }
+}
